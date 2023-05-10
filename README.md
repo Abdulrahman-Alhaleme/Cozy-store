@@ -1,1 +1,1 @@
-# Cozy-store
+cozy

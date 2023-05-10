@@ -1,0 +1,157 @@
+body {
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.about1 {
+  background: url("./Images/room8.jpg") center no-repeat;
+  font-family: "Alexandria", sans-serif;
+  background-size: cover;
+  width: 27rem;
+  height: 35rem;
+  overflow: hidden;
+  float: left;
+}
+
+section .row {
+  margin: 0px 0px 0px 0px;
+}
+
+.services {
+  text-align: left;
+}
+
+.services p,
+.card-group p {
+  font-size: 20px;
+  color: rgb(52, 52, 52);
+}
+
+.worksP {
+  color: aliceblue;
+}
+.icon0 {
+  display: flex;
+  justify-content: center;
+  color: rgb(31, 31, 32);
+}
+
+.icon1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.icon2 {
+  width: 69px;
+  height: 68px;
+}
+
+.room2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  background-color: rgb(19, 19, 19);
+}
+
+.room3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 299px;
+  background-color: rgb(19, 19, 19);
+}
+
+.Works {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.Works1 {
+  margin-top: 0px;
+  color: rgb(244, 238, 238);
+  font-weight: bold;
+  font-size: 45px;
+  float: left;
+}
+
+.Work {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.Work1 {
+  color: rgb(251, 250, 250);
+
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.imgAbout {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 22px;
+}
+
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.card p {
+  font-size: 14px;
+}
